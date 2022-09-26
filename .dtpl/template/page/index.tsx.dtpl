@@ -1,0 +1,21 @@
+/**
+ * @author $user
+ * @date $datetime
+ * @since ${pkg.version}
+ */
+
+import React from 'react'
+//import classnames from 'classnames'
+//import style from './style.module.scss'
+
+interface ${ref.ModuleName}Props {}
+
+const ${ref.ModuleName}: React.FC<${ref.ModuleName}Props> = props => {
+
+    return (
+        <div>
+        </div>
+    )
+}
+
+export default React.memo(${ref.ModuleName})
